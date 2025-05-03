@@ -1,0 +1,8 @@
+// 在编译器遇到main 包的时候，期望找到一个main函数
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, 世界")
+}
