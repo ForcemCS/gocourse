@@ -13,11 +13,11 @@ func main() {
 	const p float64 = 22 / 7.0
 	fmt.Println(p)
 	fmt.Printf("%.4f\n", p)
+	//int64的最大值是2^63  -1 ,最小是   -2^63  -1
+	//uint64的最大值是2^64 -1
+	var maxInt int64 = 9223372036854775807
+	cc := maxInt + 1
+	fmt.Println(cc)
 
-	var maxInt int64 = 9949954545454545
-	fmt.Println(maxInt)
-
-	maxInt = maxInt + 1
-
-	fmt.Println(maxInt)
+	//
 }
