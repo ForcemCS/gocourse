@@ -12,3 +12,6 @@ go course的相关内容
 
 ### 标准库
 是指全面的package集合（预先编写的代码块），包含了大量的功能
+
+###值拷贝和引用
+int array struct是值类型，map slice pointer是引用类型
